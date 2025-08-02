@@ -15,7 +15,7 @@ RUN npm install
 COPY Users.json .
 
 # Exponer el puerto de la aplicación
-EXPOSE 3000
+EXPOSE 4000
 
 # Comando para iniciar la aplicación
 CMD ["node", "index.js"]

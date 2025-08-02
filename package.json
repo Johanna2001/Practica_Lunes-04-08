@@ -1,0 +1,31 @@
+{
+  "name": "practica-lunes-04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johanna2001/Practica_Lunes-04-08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johanna2001/Practica_Lunes-04-08/issues"
+  },
+  "homepage": "https://github.com/Johanna2001/Practica_Lunes-04-08#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}

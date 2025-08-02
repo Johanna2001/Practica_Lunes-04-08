@@ -37,7 +37,7 @@ pipeline {
                 sh '''
                     docker stop hola-mundo-practica || true
                     docker rm hola-mundo-practica || true
-                    docker run -d --name hola-mundo-practica -p 3000:3000 hola-mundo-practica:latest
+                    docker run -d --name hola-mundo-practica -p 4000:4000 hola-mundo-practica:latest
                 '''
             }
         }
